@@ -2,7 +2,7 @@ Ball = Core.class(Bitmap)
 
 function Ball:init()
   self:setScale(0.2,0.2,1)
-  
+
   self.x_direction = 1
   self.y_direction = 1
   self.x_speed = 4
@@ -29,6 +29,5 @@ function Ball:onEnterFrame()
   self:setX(x) 
   self:setY(y)
 end
-
 
 return Ball
